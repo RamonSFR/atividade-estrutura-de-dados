@@ -2,8 +2,12 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int main(void) {
-    setlocale(LC_ALL, "Portuguese");
-    printf("Olá mundo!");
-    return 0;
-}
+typedef struct {
+    char rgm[10];
+    char nome[100];
+} Aluno;
+
+typedef struct no {
+    int conteudo;
+    struct no *esq, *dir;
+} No;
