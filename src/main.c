@@ -11,3 +11,17 @@ typedef struct no {
     int conteudo;
     struct no *esq, *dir;
 } No;
+
+typedef struct {
+    No *raiz;
+} ArvB;
+
+void inserir(ArvB *arv, int valor) {
+    if(arv->raiz == NULL) {
+        No *novo = malloc(sizeof(No));
+    }
+};
+
+int main() {
+
+}
